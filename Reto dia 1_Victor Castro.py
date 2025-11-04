@@ -1,0 +1,15 @@
+#-----RETO DÍA 1-----
+print("Ingresa los siguientes datos:")
+nombre = input("Nombre: ")
+edad = int(input("Edad: "))
+frase = input("¿Cuál es tu cancion favorita? ")
+dinero = float(input("Cantidad de dinero disponible: "))
+print(nombre)
+print(edad)
+print(frase)
+print(dinero)
+print("-¿Y los billetes", nombre,"? Me dijeron que tienes", str(dinero),"pesos.- Dijo el foraneo 1")
+print("-Tengo " + str(edad) + " años y además soy foraneo, ayer comí pechuga norteña y me quedan cinco pesos- Contesto el foraneo 2")
+print("Para no entrar en pánico por no juntar para sus chilaquiles con milanesa, dentro de la mente del foraneo 1 empezó a sonar '" + frase + "'")
+
+print(f"hola {nombre} tienes {str(edad)}")
